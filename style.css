@@ -9,3 +9,8 @@ html {
   margin: 0;
   overflow: hidden;
 }
+
+#start, #game-over {
+  font-family: "Nunito", sans-serif;
+  text-align: center
+}
