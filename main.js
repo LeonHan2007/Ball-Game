@@ -127,9 +127,7 @@ function createRenderer() {
 
    // Activate shadow rendering
   renderer.shadowMap.enabled = true;
-	renderer.shadowMapSoft = true;
-  renderer.shadowMapType.type = THREE.PCFSoftShadowMap;
-	renderer.physicallyBasedShading = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
 }
 
